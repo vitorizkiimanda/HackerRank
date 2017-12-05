@@ -1,0 +1,40 @@
+echo : buat print
+hostname : print curent host name
+uname : print informasi sistem dan sistem operasi
+date : print tanggal
+cal : display calendar 
+who : print user 
+cd : change directory
+pwd : print current root info
+mkdir : membuat folder
+touch : membuat file
+cp : copy
+mv : move, can rename
+ls : lihat isi folder
+chmod : change akses mode
+-chmod 400 file - Read by owner // read 4 write 2 exe 1
+-chmod 040 file - Read by group // tinggal dijumlah aja
+-chmod 004 file - Read by world // coloumn nentuin subjec nya
+ln
+locate : Find files.
+find : Search a folder hierarchy for filename(s) that meet a desired criteria:
+wc : menghitung
+grep : mencari kata di dalam file
+head : 
+tail : 
+sed :
+sort : sorting
+uniq : mencari yang beda
+cut : motong string 
+tr : translate squeeze delete
+ps : Process status, information about processes running in memory.
+nice : Run a command with modified scheduling priority, print or modify the scheduling priority of a job.
+	example:
+	Run an echo command with low priority:
+	sudo nice -n 10 echo Hello
+	Run an echo command with high priority:
+	sudo nice -n -10 echo Hello
+renice :
+pidof :
+kill
+jobs
